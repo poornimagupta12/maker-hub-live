@@ -68,6 +68,18 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-tech': 'var(--gradient-tech)',
+				'gradient-card': 'var(--gradient-card)',
+			},
+			boxShadow: {
+				'tech': 'var(--glow-primary)',
+				'accent': 'var(--glow-accent)',
+			},
+			fontFamily: {
+				mono: ['JetBrains Mono', 'Monaco', 'Consolas', 'monospace'],
+			},
 			keyframes: {
 				'accordion-down': {
 					from: {
